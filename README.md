@@ -21,7 +21,7 @@
   Python Package: pip and setuptools. 现在 pip 依赖 setuptools ，如果未安装，则会自动安装 setuptools 。
   lxml. 大多数Linux发行版自带了lxml。如果缺失，请查看http://lxml.de/installation.html
   OpenSSL. 除了Windows(请查看 平台安装指南)之外的系统都已经提供。  
-  以上基本上都会出现各种问题：建议去https://www.lfd.uci.edu/~gohlke/pythonlibs/下载离线文件安装
+  以上基本上都会出现各种问题：建议去https://www.lfd.uci.edu/~gohlke/pythonlibs  下载离线文件安装
 4. 安装scrapy，命令：pip install Scrapy
 5. 一般会遇到运行时语法错误"SyntaxError: invalid syntax",是因为python3.+版本和twished关键词冲突，解决办法是进入twished目录打开文件（python安装目录\Lib\site-packages\twisted\conch\manhole.py），替换掉里面的所有关键字async
 6. 完成安装
